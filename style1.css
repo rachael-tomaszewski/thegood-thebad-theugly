@@ -1,0 +1,35 @@
+img {
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+}
+
+ul {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+
+ul li a img, 
+ul li a {
+	display: block;
+	line-height: 1;
+	transition: opacity 500ms ease-in-out;
+}
+
+ul li a img:hover {
+	opacity: 0.5;
+}
+
+.list_wrapper--bad a {
+	background-color: red;
+	
+}
+
+.list_wrapper--good a {
+	background-color: green;
+}
+
+
